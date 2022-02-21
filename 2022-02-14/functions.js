@@ -36,6 +36,11 @@ import {camelCase, snakeCase} from "change-case";
 // const addme = () => {
 //     return 1 + 2
 // }
+
+
+// const addme = () => {
+//     return 1 + 2
+// }
 // // console.log(addme())
 //
 // const addnumbers = num1 => num1 + 2

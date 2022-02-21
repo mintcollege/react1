@@ -1,0 +1,9 @@
+html, body {background:lightpink;}
+h4, p {margin:0;}
+
+.whotofollow {background:#FFF; padding:10px; border-bottom:1px solid #CCC;
+    width:300px; margin:0 auto;}
+
+#header {background:#C28A93;}
+main {padding:20px 0;}
+#footer {background:#C28A93;}
