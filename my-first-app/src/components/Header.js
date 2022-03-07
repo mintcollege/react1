@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 
 const Header = (props) => {
@@ -10,7 +10,6 @@ const Header = (props) => {
                     <li>{props.username} is logged in: {props.login}</li>
                 </ul>
             </header>
-            <p>Hello</p>
         </div>
     )
 }
