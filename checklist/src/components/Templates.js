@@ -12,6 +12,7 @@ const Header = props => {
                 <ul>
                     <li><NavLink to={'/checklist'}>Checklist</NavLink></li>
                     <li><NavLink to={'/about'}>About</NavLink></li>
+                    <li><NavLink to={'/posts'}>Posts</NavLink></li>
                 </ul>
             </header>
         </>

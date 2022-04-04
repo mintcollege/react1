@@ -68,6 +68,12 @@ export const ChecklistPage = props => {
         setChecklist(tmparr)
     }
 
+    const dbdata = 1234
+    const [numberstate, setNumberstate] = useState(dbdata)
+    const updateNumberstate = e => {
+        setNumberstate(e.target.value)
+    }
+
     return (
         <>
             <h1>Checklist goes here</h1>
@@ -86,6 +92,12 @@ export const ChecklistPage = props => {
                         )
                     })}
                 </ul>
+            </form>
+
+
+            <form>
+                <input type="text" name="number" placeholder="Type a number" value={numberstate} onChange={updateNumberstate} />
+                <p>{numberstate}</p>
             </form>
         </>
     )
